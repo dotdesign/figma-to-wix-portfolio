@@ -26,7 +26,7 @@ export function About() {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-50 to-purple-50 blur-2xl opacity-70 -z-10"></div>
               <div className="relative aspect-square overflow-hidden rounded-3xl border border-border bg-muted">
                 <img
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1288&auto=format&fit=crop"
+                  src="/lovable-uploads/18942d53-ddea-43be-8872-1dbbeeacff09.png"
                   alt="Profile"
                   className="h-full w-full object-cover"
                 />
