@@ -44,7 +44,10 @@ export function Hero() {
           
           <Reveal delay={400}>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-              I'm a designer and developer specializing in creating beautiful, functional digital experiences with a focus on detail and user experience.
+              UX Consultant | 18+ Years of Experience
+            </p>
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+              I specialize in transforming complex user experiences into intuitive, user-friendly interfaces. My expertise spans process-oriented user research, UX analysis, and design systems. With a deep passion for understanding user behavior, I thrive on solving intricate design challenges.
             </p>
           </Reveal>
           
