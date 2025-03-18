@@ -43,7 +43,7 @@ export function Hero() {
           </Reveal>
           
           <Reveal delay={400}>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto font-bold">
               UX Consultant | 18+ Years of Experience
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
