@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-16 pb-12 overflow-hidden bg-noise"
+      className="relative min-h-screen flex items-center pt-12 pb-8 overflow-hidden bg-noise"
       style={{
         backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2670&auto=format&fit=crop')",
         backgroundSize: "cover",
@@ -32,7 +32,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
             <Badge variant="outline" className="mb-1 py-1.5 text-sm font-medium">
-              Creative Portfolio
+              4 Featured Projects
             </Badge>
           </Reveal>
           
