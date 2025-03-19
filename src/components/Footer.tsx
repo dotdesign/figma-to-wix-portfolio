@@ -1,19 +1,19 @@
 
 import Container from "@/components/ui/Container";
-import { Github, Dribbble, Linkedin, Twitter } from "lucide-react";
+import { Github, Dribbble, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   const year = new Date().getFullYear();
   
   return (
-    <footer className="py-12 bg-secondary/30 border-t border-border">
+    <footer className="py-10 bg-secondary/30 border-t border-border">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="md:col-span-2">
-            <a href="#" className="text-2xl font-bold tracking-tighter mb-6 inline-block">
+            <a href="#" className="text-2xl font-bold tracking-tighter mb-4 inline-block">
               Portfolio
             </a>
-            <p className="text-muted-foreground max-w-md mb-6">
+            <p className="text-muted-foreground max-w-md mb-4">
               Creating digital experiences that inspire. Specializing in UI/UX design and web development with a focus on beautiful, functional solutions.
             </p>
             <div className="flex space-x-4">
@@ -49,8 +49,8 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="font-semibold text-lg mb-4">Navigation</h3>
-            <ul className="space-y-3">
+            <h3 className="font-semibold text-lg mb-3">Navigation</h3>
+            <ul className="space-y-2">
               {["Home", "Portfolio", "About", "Contact"].map((item) => (
                 <li key={item}>
                   <a
@@ -65,24 +65,41 @@ export function Footer() {
           </div>
           
           <div>
-            <h3 className="font-semibold text-lg mb-4">Contact</h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li>San Francisco, CA</li>
+            <h3 className="font-semibold text-lg mb-3">Contact</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li className="flex items-center">
+                <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
+                <span>Bangalore / Dubai</span>
+              </li>
               <li>
-                <a href="mailto:hello@example.com" className="hover:text-foreground transition-colors">
-                  hello@example.com
+                <a href="mailto:Satish.shastry@gmail.com" className="flex items-center hover:text-foreground transition-colors">
+                  <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
+                  <span>Satish.shastry@gmail.com</span>
                 </a>
               </li>
               <li>
-                <a href="tel:+11234567890" className="hover:text-foreground transition-colors">
-                  +1 (123) 456-7890
+                <a href="mailto:Satish.shastry@techmahindra.com" className="flex items-center hover:text-foreground transition-colors">
+                  <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
+                  <span>Satish.shastry@techmahindra.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+919663518572" className="flex items-center hover:text-foreground transition-colors">
+                  <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
+                  <span>+91 96635 18572</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+971568237311" className="flex items-center hover:text-foreground transition-colors">
+                  <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
+                  <span>+971 56 823 7311</span>
                 </a>
               </li>
             </ul>
           </div>
         </div>
         
-        <div className="mt-12 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-8 pt-4 border-t border-border flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-sm text-muted-foreground">
             © {year} Portfolio. All rights reserved.
           </p>

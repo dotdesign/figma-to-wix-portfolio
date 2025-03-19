@@ -65,8 +65,10 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['Inter var', 'SF Pro Display', 'system-ui', 'sans-serif'],
-				display: ['SF Pro Display', 'Inter var', 'system-ui', 'sans-serif'],
+				sans: ['Space Grotesk', 'Inter var', 'SF Pro Display', 'system-ui', 'sans-serif'],
+				display: ['Syne', 'SF Pro Display', 'Inter var', 'system-ui', 'sans-serif'],
+				mono: ['JetBrains Mono', 'monospace'],
+				futuristic: ['Outfit', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

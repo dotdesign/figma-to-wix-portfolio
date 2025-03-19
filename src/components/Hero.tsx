@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden bg-noise"
+      className="relative min-h-screen flex items-center pt-16 pb-12 overflow-hidden bg-noise"
     >
       <div className="absolute inset-0 bg-gradient-radial from-transparent to-background opacity-70 z-0"></div>
       
@@ -25,13 +25,13 @@ export function Hero() {
       <Container className="relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
-            <Badge variant="outline" className="mb-6 py-1.5 text-sm font-medium">
+            <Badge variant="outline" className="mb-3 py-1.5 text-sm font-medium">
               Creative Portfolio
             </Badge>
           </Reveal>
           
           <Reveal delay={200}>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 text-balance">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-4 text-balance">
               <span className="text-fade-in inline-block overflow-hidden">
                 <span>Creating</span>{" "}
                 <span>digital</span>{" "}
@@ -43,10 +43,10 @@ export function Hero() {
           </Reveal>
           
           <Reveal delay={400}>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto font-bold">
+            <p className="text-lg md:text-xl text-muted-foreground mb-5 max-w-2xl mx-auto font-bold">
               UX Consultant | 18+ Years of Experience
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl mx-auto">
               I specialize in transforming complex user experiences into intuitive, user-friendly interfaces. My expertise spans process-oriented user research, UX analysis, and design systems. With a deep passion for understanding user behavior, I thrive on solving intricate design challenges.
             </p>
           </Reveal>
@@ -64,9 +64,9 @@ export function Hero() {
           </Reveal>
         </div>
         
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce">
           <a href="#portfolio" className="flex flex-col items-center text-sm text-muted-foreground hover:text-foreground transition-colors">
-            <span className="mb-2">Scroll Down</span>
+            <span className="mb-1">Scroll Down</span>
             <ArrowDown className="h-4 w-4" />
           </a>
         </div>

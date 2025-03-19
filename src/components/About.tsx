@@ -7,20 +7,24 @@ import { Download, FileText, Mail, User } from "lucide-react";
 
 export function About() {
   const skills = [
-    "UI/UX Design",
-    "Web Development",
-    "Brand Identity",
-    "Mobile Design",
-    "Prototyping",
+    "UX Research",
+    "User Testing",
     "Interaction Design",
-    "User Research",
-    "Frontend Development",
+    "Wireframing",
+    "Prototyping",
+    "Design Systems",
+    "Information Architecture",
+    "Usability Analysis",
+    "Service Design",
+    "Enterprise UX",
+    "User Journey Mapping",
+    "Heuristic Evaluation"
   ];
 
   return (
-    <section id="about" className="py-24 bg-noise">
+    <section id="about" className="py-16 bg-noise">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
           <Reveal className="order-2 md:order-1">
             <div className="relative">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-50 to-purple-50 blur-2xl opacity-70 -z-10"></div>
@@ -42,22 +46,22 @@ export function About() {
 
           <div className="order-1 md:order-2">
             <Reveal>
-              <Badge variant="outline" className="mb-4">About Me</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Creating digital experiences with purpose</h2>
+              <Badge variant="outline" className="mb-3">About Me</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">Creating digital experiences with purpose</h2>
             </Reveal>
             
             <Reveal delay={200}>
-              <p className="text-muted-foreground mb-6">
-                I'm a passionate designer and developer with over 8 years of experience creating exceptional digital experiences. I combine aesthetic sensibility with technical expertise to build products that are both beautiful and functional.
+              <p className="text-muted-foreground mb-4">
+                I'm a passionate UX consultant with over 18 years of experience creating exceptional digital experiences across multiple industries. I combine human-centered design with strategic business thinking to build solutions that truly resonate with users.
               </p>
-              <p className="text-muted-foreground mb-8">
-                My approach focuses on minimalism, attention to detail, and user-centered design. I believe in creating digital products that solve real problems while providing enjoyable experiences.
+              <p className="text-muted-foreground mb-5">
+                My approach focuses on research-driven insights, attention to detail, and user-centered methodologies. I specialize in transforming complex business requirements into intuitive interfaces that drive measurable business outcomes.
               </p>
             </Reveal>
             
             <Reveal delay={300}>
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold mb-4">My Skills</h3>
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold mb-3">My Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
                     <Badge key={skill} variant="secondary" className="px-3 py-1">
