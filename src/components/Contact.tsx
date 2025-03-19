@@ -54,7 +54,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="font-medium text-lg mb-1">Location</h3>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <p className="text-muted-foreground">Bangalore / Dubai</p>
               </div>
             </div>
             
@@ -64,9 +64,14 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="font-medium text-lg mb-1">Email</h3>
-                <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                  hello@example.com
-                </a>
+                <div className="space-y-1">
+                  <a href="mailto:Satish.shastry@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors block">
+                    Satish.shastry@gmail.com
+                  </a>
+                  <a href="mailto:Satish.shastry@techmahindra.com" className="text-muted-foreground hover:text-foreground transition-colors block">
+                    Satish.shastry@techmahindra.com
+                  </a>
+                </div>
               </div>
             </div>
             
@@ -76,9 +81,14 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="font-medium text-lg mb-1">Phone</h3>
-                <a href="tel:+11234567890" className="text-muted-foreground hover:text-foreground transition-colors">
-                  +1 (123) 456-7890
-                </a>
+                <div className="space-y-1">
+                  <a href="tel:+919663518572" className="text-muted-foreground hover:text-foreground transition-colors block">
+                    +91 96635 18572
+                  </a>
+                  <a href="tel:+971568237311" className="text-muted-foreground hover:text-foreground transition-colors block">
+                    +971 56 823 7311
+                  </a>
+                </div>
               </div>
             </div>
           </Reveal>
