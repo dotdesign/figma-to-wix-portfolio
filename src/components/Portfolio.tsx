@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Ministry of Human Resources & Emiratisation - Dubai Labour",
     category: "UX Research & Design",
     description: "Streamlined labor management processes for Dubai's Ministry of HR, improving workflow efficiency by 35% and enhancing visa application experiences.",
-    image: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=2676&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2672&auto=format&fit=crop",
     link: "/project/dubai-labour",
     detailed: true,
   },
@@ -89,18 +89,18 @@ export function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="py-16 bg-secondary/30">
+    <section id="portfolio" className="py-12 bg-secondary/30">
       <Container>
         <Reveal>
-          <Badge variant="outline" className="mb-3">My Work</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">Featured Projects</h2>
-          <p className="text-muted-foreground mb-6 max-w-2xl">
+          <Badge variant="outline" className="mb-2">My Work</Badge>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">Featured Projects</h2>
+          <p className="text-muted-foreground mb-4 max-w-2xl">
             Explore my carefully curated selection of projects showcasing enterprise UX solutions for complex business challenges.
           </p>
         </Reveal>
 
         <Reveal delay={200}>
-          <div className="flex flex-wrap gap-3 mb-8">
+          <div className="flex flex-wrap gap-3 mb-6">
             {categories.map((category) => (
               <Button
                 key={category}
@@ -143,7 +143,11 @@ export function Portfolio() {
                   <a
                     href={project.link}
                     className="inline-flex items-center text-foreground hover:text-primary/80 transition-colors group"
-                    onClick={(e) => e.stopPropagation()}
+                    onClick={(e) => {
+                      if (project.detailed) {
+                        e.preventDefault();
+                      }
+                    }}
                   >
                     {project.detailed ? "View Detailed Case Study" : "View Project"} <ExternalLink className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </a>
@@ -153,7 +157,7 @@ export function Portfolio() {
           ))}
         </div>
 
-        <Reveal delay={600} className="flex justify-center mt-8">
+        <Reveal delay={600} className="flex justify-center mt-6">
           <Button className="group">
             View All Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>

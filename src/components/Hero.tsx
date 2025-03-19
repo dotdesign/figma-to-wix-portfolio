@@ -11,13 +11,13 @@ export function Hero() {
       id="home"
       className="relative min-h-screen flex items-center pt-16 pb-12 overflow-hidden bg-noise"
       style={{
-        backgroundImage: "url('/photo-1581091226825-a6a2a5aee158')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2670&auto=format&fit=crop')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat"
       }}
     >
-      <div className="absolute inset-0 bg-background/90 backdrop-blur-sm z-0"></div>
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm z-0"></div>
       
       <div 
         className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl z-0" 
@@ -31,13 +31,13 @@ export function Hero() {
       <Container className="relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <Reveal>
-            <Badge variant="outline" className="mb-2 py-1.5 text-sm font-medium">
+            <Badge variant="outline" className="mb-1 py-1.5 text-sm font-medium">
               Creative Portfolio
             </Badge>
           </Reveal>
           
           <Reveal delay={200}>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-3 text-balance">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-2 text-balance">
               <span className="text-fade-in inline-block overflow-hidden">
                 <span>Creating</span>{" "}
                 <span>digital</span>{" "}
@@ -49,10 +49,10 @@ export function Hero() {
           </Reveal>
           
           <Reveal delay={400}>
-            <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-2xl mx-auto font-bold">
+            <p className="text-2xl md:text-3xl mb-2 max-w-2xl mx-auto font-futuristic tracking-wide bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
               UX Consultant | 18+ Years of Experience
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground mb-5 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
               I specialize in transforming complex user experiences into intuitive, user-friendly interfaces. My expertise spans process-oriented user research, UX analysis, and design systems. With a deep passion for understanding user behavior, I thrive on solving intricate design challenges.
             </p>
           </Reveal>
