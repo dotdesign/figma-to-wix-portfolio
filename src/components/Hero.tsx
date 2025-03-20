@@ -11,20 +11,20 @@ export function Hero() {
       id="home"
       className="relative min-h-screen flex items-center pt-12 pb-8 overflow-hidden bg-noise"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2670&auto=format&fit=crop')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat"
       }}
     >
-      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm z-0"></div>
+      <div className="absolute inset-0 bg-background/70 backdrop-blur-sm z-0"></div>
       
       <div 
-        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl z-0" 
+        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-blue-500/20 blur-3xl z-0" 
         style={{ animation: 'float 15s ease-in-out infinite' }}
       ></div>
       <div 
-        className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500/10 blur-3xl z-0" 
+        className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-purple-500/20 blur-3xl z-0" 
         style={{ animation: 'float 18s ease-in-out infinite 2s' }}
       ></div>
       
@@ -37,7 +37,7 @@ export function Hero() {
           </Reveal>
           
           <Reveal delay={200}>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-2 text-balance">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 text-balance">
               <span className="text-fade-in inline-block overflow-hidden">
                 <span>Creating</span>{" "}
                 <span>digital</span>{" "}
@@ -49,10 +49,10 @@ export function Hero() {
           </Reveal>
           
           <Reveal delay={400}>
-            <p className="text-2xl md:text-3xl mb-2 max-w-2xl mx-auto font-futuristic tracking-wide bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
+            <p className="text-3xl md:text-4xl mb-4 max-w-2xl mx-auto font-light tracking-wide bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
               UX Consultant | 18+ Years of Experience
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               I specialize in transforming complex user experiences into intuitive, user-friendly interfaces. My expertise spans process-oriented user research, UX analysis, and design systems. With a deep passion for understanding user behavior, I thrive on solving intricate design challenges.
             </p>
           </Reveal>

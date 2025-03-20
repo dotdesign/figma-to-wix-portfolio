@@ -32,14 +32,14 @@ const Index = () => {
   }, []);
 
   return (
-    <main className="bg-background text-foreground overflow-hidden">
+    <div className="bg-background text-foreground min-h-screen w-full">
       <Navbar />
       <Hero />
       <Portfolio />
       <About />
       <Contact />
       <Footer />
-    </main>
+    </div>
   );
 };
 

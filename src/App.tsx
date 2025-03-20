@@ -21,7 +21,12 @@ function App() {
     if (location.pathname === "/") {
       document.title = "Portfolio - UX Consultant";
     }
-  }, [location]);
+    
+    // Fix for root path
+    if (location.pathname === "/index") {
+      navigate("/", { replace: true });
+    }
+  }, [location, navigate]);
 
   return (
     <>
