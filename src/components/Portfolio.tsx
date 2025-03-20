@@ -93,8 +93,8 @@ export function Portfolio() {
       <Container>
         <Reveal>
           <Badge variant="outline" className="mb-2">My Work</Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">Featured Projects</h2>
-          <p className="text-muted-foreground mb-4 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-2 font-merriweather">Featured Projects</h2>
+          <p className="text-muted-foreground mb-4 max-w-2xl font-merriweather font-light">
             Explore my carefully curated selection of projects showcasing enterprise UX solutions for complex business challenges.
           </p>
         </Reveal>
@@ -107,7 +107,7 @@ export function Portfolio() {
                 variant={activeFilter === category ? "default" : "outline"}
                 size="sm"
                 onClick={() => setActiveFilter(category)}
-                className="rounded-full"
+                className="rounded-full font-merriweather"
               >
                 {category}
               </Button>
@@ -135,14 +135,14 @@ export function Portfolio() {
                       />
                     )}
                   </AspectRatio>
-                  <Badge className="absolute top-4 left-4">{project.category}</Badge>
+                  <Badge className="absolute top-4 left-4 font-merriweather">{project.category}</Badge>
                 </div>
                 <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-muted-foreground mb-4 flex-grow">{project.description}</p>
+                  <h3 className="text-xl font-semibold mb-2 font-merriweather">{project.title}</h3>
+                  <p className="text-muted-foreground mb-4 flex-grow font-merriweather font-light">{project.description}</p>
                   <a
                     href={project.link}
-                    className="inline-flex items-center text-foreground hover:text-primary/80 transition-colors group"
+                    className="inline-flex items-center text-foreground hover:text-primary/80 transition-colors group font-merriweather"
                     onClick={(e) => {
                       if (project.detailed) {
                         e.preventDefault();
@@ -158,7 +158,7 @@ export function Portfolio() {
         </div>
 
         <Reveal delay={600} className="flex justify-center mt-6">
-          <Button className="group">
+          <Button className="group font-merriweather">
             View All Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </Reveal>
