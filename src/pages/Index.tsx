@@ -28,7 +28,7 @@ const Index = () => {
     });
     
     // Update page title
-    document.title = "Portfolio - Creative Designer & Developer";
+    document.title = "Satish Shastry Portfolio - UX Consultant";
   }, []);
 
   return (

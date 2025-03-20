@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      document.title = "Portfolio - UX Consultant";
+      document.title = "Satish Shastry Portfolio - UX Consultant";
     }
     
     // Fix for root path
