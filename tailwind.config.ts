@@ -68,7 +68,8 @@ export default {
 				sans: ['Space Grotesk', 'Inter var', 'SF Pro Display', 'system-ui', 'sans-serif'],
 				display: ['Syne', 'SF Pro Display', 'Inter var', 'system-ui', 'sans-serif'],
 				mono: ['JetBrains Mono', 'monospace'],
-				futuristic: ['Outfit', 'system-ui', 'sans-serif']
+				futuristic: ['Outfit', 'system-ui', 'sans-serif'],
+				merriweather: ['Merriweather', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

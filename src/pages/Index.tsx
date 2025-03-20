@@ -32,7 +32,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="bg-background text-foreground min-h-screen w-full">
+    <div className="bg-background text-foreground min-h-screen w-full font-merriweather">
       <Navbar />
       <Hero />
       <Portfolio />

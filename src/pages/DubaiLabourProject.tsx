@@ -86,7 +86,7 @@ const DubaiLabourProject = () => {
   const tools = ["Figma", "Sketch", "Adobe XD", "InVision", "Miro", "Axure RP"];
 
   return (
-    <main className="bg-background text-foreground pb-20">
+    <main className="bg-background text-foreground pb-20 font-merriweather">
       {/* Hero Section */}
       <ProjectHero 
         title="Modernizing MoHRE Dubai's Back Office Operations: A UX Transformation Case Study"
@@ -95,7 +95,7 @@ const DubaiLabourProject = () => {
 
       {/* Featured Image */}
       <FeaturedImage 
-        src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2672&auto=format&fit=crop"
+        src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80"
         alt="MoHRE Dubai Project"
       />
 
@@ -112,7 +112,7 @@ const DubaiLabourProject = () => {
             />
             
             <ResearchSection 
-              imageSrc="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2670&auto=format&fit=crop"
+              imageSrc="https://images.unsplash.com/photo-1542361345-89e58247f2d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80"
               researchPoints={researchPoints}
             />
             
@@ -125,7 +125,7 @@ const DubaiLabourProject = () => {
             
             <KeyFeatures 
               features={features}
-              imageSrc="https://images.unsplash.com/photo-1586282391129-76a6df230234?q=80&w=2670&auto=format&fit=crop"
+              imageSrc="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80"
             />
             
             <ResultsSection results={results} />
