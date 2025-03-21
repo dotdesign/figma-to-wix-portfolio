@@ -1,4 +1,3 @@
-
 import Container from "@/components/ui/Container";
 import ProjectHero from "@/components/projects/ProjectHero";
 import FeaturedImage from "@/components/projects/FeaturedImage";

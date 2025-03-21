@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Ministry of Human Resources & Emiratisation - Dubai Labour",
     category: "UX Research & Design",
     description: "Streamlined labor management processes for Dubai's Ministry of HR, improving workflow efficiency by 35% and enhancing visa application experiences.",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2672&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2670&q=80",
     link: "/project/dubai-labour",
     detailed: true,
   },
@@ -92,8 +92,8 @@ export function Portfolio() {
     <section id="portfolio" className="py-12 bg-secondary/30">
       <Container>
         <Reveal>
-          <Badge variant="outline" className="mb-2">My Work</Badge>
-          <h2 className="text-3xl md:text-4xl font-semibold mb-2 font-merriweather">Featured Projects</h2>
+          <Badge variant="outline" className="mb-2 font-merriweather">My Work</Badge>
+          <h2 className="text-3xl md:text-4xl font-semibold mb-2 font-merriweather leading-tight">Featured Projects</h2>
           <p className="text-muted-foreground mb-4 max-w-2xl font-merriweather font-light">
             Explore my carefully curated selection of projects showcasing enterprise UX solutions for complex business challenges.
           </p>

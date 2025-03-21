@@ -21,7 +21,7 @@ export function ProjectHero({ title, tags }: ProjectHeroProps) {
       <Container className="relative z-10">
         <Button 
           variant="ghost" 
-          className="mb-8 -ml-4 group" 
+          className="mb-8 -ml-4 group font-merriweather" 
           onClick={() => navigate('/')}
         >
           <ArrowLeft className="mr-2 h-4 w-4 transition-transform group-hover:-translate-x-1" />
@@ -29,8 +29,8 @@ export function ProjectHero({ title, tags }: ProjectHeroProps) {
         </Button>
         
         <Reveal>
-          <Badge className="mb-3">Case Study</Badge>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 font-display max-w-4xl">
+          <Badge className="mb-3 font-merriweather">Case Study</Badge>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 font-merriweather max-w-4xl leading-tight">
             {title}
           </h1>
         </Reveal>
@@ -38,7 +38,7 @@ export function ProjectHero({ title, tags }: ProjectHeroProps) {
         <Reveal delay={200}>
           <div className="flex flex-wrap gap-4 my-6">
             {tags.map((tag) => (
-              <Badge key={tag} variant="outline">{tag}</Badge>
+              <Badge key={tag} variant="outline" className="font-merriweather">{tag}</Badge>
             ))}
           </div>
         </Reveal>
