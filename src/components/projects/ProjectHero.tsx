@@ -30,7 +30,7 @@ export function ProjectHero({ title, tags }: ProjectHeroProps) {
         
         <Reveal>
           <Badge className="mb-3 font-merriweather">Case Study</Badge>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 font-merriweather max-w-4xl leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 font-merriweather leading-tight">
             {title}
           </h1>
         </Reveal>
